@@ -4,7 +4,7 @@ The __Object-Oriented Design Principles__ are the core of OOP programming, but I
 ## 1. DRY (Don’t repeat yourself)
 Our first object-oriented design principle is DRY, as the name suggests __DRY (don’t repeat yourself)__ means don’t write duplicate code, instead use <ins>Abstraction</ins> to abstract common things in one place.
 
-If you have a block of code in more than two places consider making it a separate method, or if you use a hard-coded value more than one time make them public final constant. The benefit of this Object oriented design principle is in maintenance.
+If you have a block of code in more than two places consider making it a separate method, or if you use a hard-coded value more than one time make them <ins>public final constant</ins>. The benefit of this Object oriented design principle is in __maintenance__.
 
 > It’s important not to abuse it, duplication is not for code, but for functionality.
 
@@ -15,7 +15,7 @@ It means if you have used common code to validate OrderId and SSN it doesn’t m
 
 By using common code for two different functionality or thing you closely couple them forever and when your OrderId changes its format, your SSN validation code will break.
  
-So beware of such coupling and just don’t combine anything which uses the similar code but are not related. You can further check out the Basics of Software Architecture & Design Patterns in Java course on Udemy to learn more about writing good code and best practices to follow while designing a system.
+So beware of such coupling and just don’t combine anything which uses the similar code but are not related. You can further check out the __Basics of Software Architecture & Design Patterns__ in Java course on Udemy to learn more about writing good code and best practices to follow while designing a system.
 
 ## 2. Encapsulate What Changes
 There is only one thing which is constant in the software field and that is “Change”, So, encapsulate the code you expect or suspect to be changed in future.
@@ -23,19 +23,19 @@ There is only one thing which is constant in the software field and that is “C
 > The benefit of this OOP Design principle is that It’s easy to test and maintain proper encapsulated code.
 
 The benefit of this OOP Design principle is that It’s easy to test and maintain proper encapsulated code.
-If you are coding in Java then follow the principle of making variable and methods private by default and increasing access step by step like from a private to protected and not public.
+If you are coding in Java then follow the principle of <ins>making variable and methods private</ins> by default and increasing access step by step like from a private to <ins>protected</ins> and not <ins>public</ins>.
 
 ![](2.jpg)
 
 
-Several of the design patterns in Java uses Encapsulation, the Factory design pattern is one example of Encapsulation which encapsulates object creation code and provides flexibility to introduce a new product later with no impact on existing code.
+Several of the design patterns in Java uses Encapsulation, the <ins>Factory design pattern</ins> is one example of Encapsulation which encapsulates object creation code and provides flexibility to introduce a new product later with no impact on existing code.
  
-Btw, if you are interested in learning more about design patterns in Java and Object Oriented Programming then you must check this Design Pattern Library course Pluralsight. It’s one of the best collection of design patterns and advice on how to use them in the real world.
+Btw, if you are interested in learning more about design patterns in Java and Object Oriented Programming then you must check this __Design Pattern Library__ course Pluralsight. It’s one of the best collection of design patterns and advice on how to use them in the real world.
 
 ## 3. Open Closed Design Principle
 According to tho this OOP design principle, “Classes, methods or functions should be Open for extension (new functionality) and Closed for modification”.
 
-This is another beautiful SOLID design principle, coined by Uncle Bob on his classic Clean Code book, which prevents someone from changing already tried and tested code.
+This is another beautiful SOLID design principle, coined by Uncle Bob on his classic __<ins>Clean Code</ins>___ book, which prevents someone from changing already tried and tested code.
 
 > The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break.
 
@@ -45,7 +45,7 @@ Here is a Java code example which violates the Open Closed Design Principle of P
 ![](3.jpeg)
 
 
-In this code GraphicEditor is tightly coupled with Shape, If you need a new Shape then you need to modify already tried and tested code inside thedrawShape(Shape s) method, which is both error-prone and not desirable.
+In this code GraphicEditor is tightly coupled with Shape, If you need a new Shape then you need to modify already tried and tested code inside the ```drawShape(Shape s)``` method, which is both error-prone and not desirable.
 
 Ideally, if you are adding new functionality only than your code should be tested and that’s the goal of Open Closed Design principle.
 
