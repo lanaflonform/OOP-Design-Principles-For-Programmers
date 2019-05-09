@@ -19,6 +19,7 @@ There is only one thing which is constant in the software field and that is “C
 
 The benefit of this OOP Design principle is that It’s easy to test and maintain proper encapsulated code.
 If you are coding in Java then follow the principle of making variable and methods private by default and increasing access step by step like from a private to protected and not public.
+![](2.jpg)
 
 
 Several of the design patterns in Java uses Encapsulation, the Factory design pattern is one example of Encapsulation which encapsulates object creation code and provides flexibility to introduce a new product later with no impact on existing code.
@@ -32,6 +33,7 @@ This is another beautiful SOLID design principle, coined by Uncle Bob on his cla
 
 The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break.
 Here is a Java code example which violates the Open Closed Design Principle of Programming:
+![](3.jpg)
 
 
 In this code GraphicEditor is tightly coupled with Shape, If you need a new Shape then you need to modify already tried and tested code inside thedrawShape(Shape s) method, which is both error-prone and not desirable.
@@ -47,6 +49,7 @@ The key benefit of this principle is that it reduces coupling between the indivi
 For example, If you put more than one functionality in one Class in Java it introduces coupling between two functionality and even if you change one functionality there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
  
 You can further see From 0 to 1: Design Patterns — 24 That Matter course on Udemy to learn about patterns which are based on this principle.
+![](4.jpg)
 
 
 ## 5. Dependency Injection or Inversion principle
@@ -58,6 +61,7 @@ There are multiple ways to implemented Dependency injection like using bytecode 
 You can further see the SOLID Principles of Object-Oriented Design and Architecture course on Udemy to learn more about this useful principle. It also represents “D” on the SOLID acronym.
 
 Here is an example of the code which violates Dependency Inversion Principle or DIP in Java:
+![](5.jpg)
 
 
 You can see that AppManager depends upon EventLogWriter which is tightly coupled with the AppManager. If you need to use another way to notify your client like by sending push notifications, SMS, or E-mail, you need to change the AppManager class.
@@ -75,6 +79,7 @@ Composition allows changing the behavior of a class at run-time by setting prope
 Even Joshua Bloch’s Effective Java advise favoring composition over inheritance. If you are still not convinced then you can also read here to learn more about why your Composition is better than Inheritance for reusing code and functionality.
 
 And, if you keep forgetting this rule, here is a nice cartoon to put in your desk :-)
+![](6.jpg)
 
 
 If you are interested in learning more about Object Oriented Programming Concepts like Composition, Inheritance, Association, Aggregation, etc, you can also take a look at the Object-Oriented Programming in Java course on Coursera.
@@ -90,7 +95,7 @@ If a class has more functionality than subclass might not support some of the fu
 In order to follow LSP SOLID design principle, derived class or subclass must enhance functionality, but not reduce them. LSP represents “L” on the SOLID acronym.
 
 Here is a code example which violates the Liskov Substitution Principle in Java:
-
+![](7.jpg)
 
 Liskov Substitution Principle in Java
 If you have a method area(Rectangle r) which calculates the area of Rectangle then that code will break when you pass the Square because Square is not really a Rectangle.
@@ -108,6 +113,7 @@ There is no doubt that Interface design is a tricky job because once you release
 
 Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement.
 If you don’t the get the benefit of the interface in coding then I suggest you read my blog post, the real usage of an interface in Java to learn more.
+![](8.jpg)
 
 
 ## 9. Programming for Interface not implementation
@@ -126,6 +132,7 @@ ArrayList numbers = getNumbers();
 This has also been advised in many Java books including in Effective Java and Head First design pattern book.
 
 Here is an example of Coding for the interface in Java:
+![](9.jpg)
 
 
 If you are interested in improving code quality of your program, I also suggest you take a look at the Refactoring to Design Patterns course on Udemy which will help you to improve the internal design with refactoring techniques and design patterns in C#
@@ -135,11 +142,15 @@ Don’t do all stuff by yourself, delegate it to the respective class. Classical
 
 In order to compare two objects for equality, we ask the class itself to do comparison instead of Client class doing that check.
 The key benefit of this design principle is no duplication of code and pretty easy to modify behavior. Event delegation is another example of this principle, where an event is delegated to handlers for handling.
+![](10.jpg)
 
 
 ## Summary
 All these object-oriented design principles help you write flexible and better code by striving high cohesion and low coupling.
 
 The theory is the first step, but what is most important is to develop the ability to find out when to apply these design principles.
+
+![](11.jpg)
  
 Once you get hold of that, the next step is to learn Design patterns in Java, which uses these design patterns to solve common problems of application development and software engineering.
+
