@@ -10,9 +10,9 @@ If you have a block of code in more than two places consider making it a separat
 
 It’s important not to abuse it, duplication is not for code, but for functionality.
 It means if you have used common code to validate OrderId and SSN it doesn’t mean they are the same or they will remain the same in future.
-
+<p align="center">
 ![](1.jpg)
-
+<p>
 By using common code for two different functionality or thing you closely couple them forever and when your OrderId changes its format, your SSN validation code will break.
  
 So beware of such coupling and just don’t combine anything which uses the similar code but are not related. You can further check out the __Basics of Software Architecture & Design Patterns__ in Java course on Udemy to learn more about writing good code and best practices to follow while designing a system.
