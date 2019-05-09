@@ -24,10 +24,9 @@ There is only one thing which is constant in the software field and that is “C
 
 The benefit of this OOP Design principle is that It’s easy to test and maintain proper encapsulated code.
 If you are coding in Java then follow the principle of <ins>making variable and methods private</ins> by default and increasing access step by step like from a private to <ins>protected</ins> and not <ins>public</ins>.
-
-![](2.jpg)
-
-
+<p align="center"> 
+<img src="2.jpg">
+</p>
 Several of the design patterns in Java uses Encapsulation, the <ins>Factory design pattern</ins> is one example of Encapsulation which encapsulates object creation code and provides flexibility to introduce a new product later with no impact on existing code.
  
 Btw, if you are interested in learning more about design patterns in Java and Object Oriented Programming then you must check this __Design Pattern Library__ course Pluralsight. It’s one of the best collection of design patterns and advice on how to use them in the real world.
@@ -60,10 +59,9 @@ The key benefit of this principle is that it reduces coupling between the indivi
 For example, If you put more than one functionality in one Class in Java it introduces coupling between two functionality and even if you change one functionality there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
  
 You can further see __<ins>From 0 to 1: Design Patterns — 24 That Matter</ins>__ course on Udemy to learn about patterns which are based on this principle.
-
-![](4.jpg)
-
-
+<p align="center"> 
+<img src="4.jpg">
+</p>
 ## 5. Dependency Injection or Inversion principle
 Don’t ask for dependency it will be provided to you by the framework. This has been very well implemented in <ins>Spring framework</ins>, one of the most popular Java framework for writing real-worth applications.
 
@@ -95,9 +93,9 @@ Composition allows changing the behavior of a class at run-time by setting prope
 Even Joshua Bloch’s __<ins>Effective Java</ins>__ advise favoring composition over inheritance. If you are still not convinced then you can also read here to learn more about why your Composition is better than Inheritance for reusing code and functionality.
 
 And, if you keep forgetting this rule, here is a nice cartoon to put in your desk :-)
-
-![](6.png)
-
+<p align="center"> 
+<img src="6.png">
+</p>
 ## 7. Liskov Substitution Principle (LSP)
 According to the Liskov Substitution Principle, Subtypes must be substitutable for supertype I mean methods or functions which uses superclass type must be able to work with the <ins>object</ins> of subclass without any issue”.
  
@@ -123,10 +121,9 @@ There is no doubt that Interface design is a tricky job because once you release
 > Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement.
 
 Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement.
-
-![](8.jpg)
-
-
+<p align="center"> 
+<img src="8.jpg">
+</p>
 ## 9. Programming for Interface not implementation
 A programmer should _always program for the interface and not for implementation_ this will lead to flexible code which can work with any new implementation of the interface.
  
@@ -152,10 +149,9 @@ Don’t do all stuff by yourself, delegate it to the respective class. Classical
 
 In order to compare two objects for equality, we ask the class itself to do comparison instead of Client class doing that check.
 The key benefit of this design principle is __no duplication of code__ and pretty easy to modify behavior. Event delegation is another example of this principle, where an event is delegated to handlers for handling.
-
-![](10.jpg)
-
-
+<p align="center"> 
+<img src="10.jpg">
+</p>
 ## Summary
 All these __object-oriented design principles__ help you write flexible and better code by striving high cohesion and low coupling.
 
