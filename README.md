@@ -8,7 +8,7 @@ If you have a block of code in more than two places consider making it a separat
 
 It’s important not to abuse it, duplication is not for code, but for functionality.
 It means if you have used common code to validate OrderId and SSN it doesn’t mean they are the same or they will remain the same in future.
-
+![](https://click.linksynergy.com/fs-bin/click?id=JVFxdTr9V80&subid=0&offerid=562016.1&type=10&tmpid=14538&RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fbasics-of-software-architecture-design-in-java%2F)
 
 By using common code for two different functionality or thing you closely couple them forever and when your OrderId changes its format, your SSN validation code will break.
  
