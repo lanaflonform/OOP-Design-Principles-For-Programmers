@@ -42,7 +42,7 @@ This is another beautiful SOLID design principle, coined by Uncle Bob on his cla
 The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break.
 Here is a Java code example which violates the Open Closed Design Principle of Programming:
 
-![](3.jpg)
+![](3.jpeg)
 
 
 In this code GraphicEditor is tightly coupled with Shape, If you need a new Shape then you need to modify already tried and tested code inside thedrawShape(Shape s) method, which is both error-prone and not desirable.
@@ -76,7 +76,7 @@ You can further see the SOLID Principles of Object-Oriented Design and Architect
 
 Here is an example of the code which violates Dependency Inversion Principle or DIP in Java:
 
-![](5.jpg)
+![](5.jpeg)
 
 
 You can see that AppManager depends upon EventLogWriter which is tightly coupled with the AppManager. If you need to use another way to notify your client like by sending push notifications, SMS, or E-mail, you need to change the AppManager class.
@@ -97,7 +97,7 @@ Even Joshua Bloch’s Effective Java advise favoring composition over inheritanc
 
 And, if you keep forgetting this rule, here is a nice cartoon to put in your desk :-)
 
-![](6.jpg)
+![](6.png)
 
 
 If you are interested in learning more about Object Oriented Programming Concepts like Composition, Inheritance, Association, Aggregation, etc, you can also take a look at the Object-Oriented Programming in Java course on Coursera.
@@ -116,7 +116,7 @@ In order to follow LSP SOLID design principle, derived class or subclass must en
 
 Here is a code example which violates the Liskov Substitution Principle in Java:
 
-![](7.jpg)
+![](7.jpeg)
 
 Liskov Substitution Principle in Java
 If you have a method area(Rectangle r) which calculates the area of Rectangle then that code will break when you pass the Square because Square is not really a Rectangle.
@@ -157,7 +157,7 @@ This has also been advised in many Java books including in Effective Java and He
 
 Here is an example of Coding for the interface in Java:
 
-![](9.jpg)
+![](9.png)
 
 
 If you are interested in improving code quality of your program, I also suggest you take a look at the Refactoring to Design Patterns course on Udemy which will help you to improve the internal design with refactoring techniques and design patterns in C#
@@ -178,7 +178,7 @@ All these object-oriented design principles help you write flexible and better c
 
 The theory is the first step, but what is most important is to develop the ability to find out when to apply these design principles.
 
-![](11.jpg)
+![](11.png)
  
 Once you get hold of that, the next step is to learn Design patterns in Java, which uses these design patterns to solve common problems of application development and software engineering.
 
