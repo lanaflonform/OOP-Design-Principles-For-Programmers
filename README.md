@@ -62,10 +62,13 @@ You can further see __<ins>From 0 to 1: Design Patterns — 24 That Matter</
 <p align="center"> 
 <img src="4.jpg">
 </p>
+
 ## 5. Dependency Injection or Inversion principle
 Don’t ask for dependency it will be provided to you by the framework. This has been very well implemented in <ins>Spring framework</ins>, one of the most popular Java framework for writing real-worth applications.
 
+
 > The beauty of this design principle is that any class which is injected by DI framework is easy to test with the mock object and easier to maintain because object creation code is centralized in the framework and client code is not littered with that.
+
 
 There are multiple ways to implemented __<ins>Dependency injection</ins>__ like using bytecode instrumentation which some AOP (Aspect Oriented programming) framework like AspectJ does or by using proxies just like used in Spring.
 
