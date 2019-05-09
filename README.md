@@ -47,9 +47,9 @@ Here is a Java code example which violates the Open Closed Design Principle of P
 
 In this code GraphicEditor is tightly coupled with Shape, If you need a new Shape then you need to modify already tried and tested code inside the ```drawShape(Shape s)``` method, which is both error-prone and not desirable.
 
-Ideally, if you are adding new functionality only than your code should be tested and that’s the goal of Open Closed Design principle.
+Ideally, if you are adding new functionality only than your code should be tested and that’s the goal of <ins>Open Closed Design principle</ins>.
 
-By the way, the Open-Closed principle is “O” from the SOLID acronym. If you want to learn more about this principle, the SOLID Principles of Object-Oriented Design and Architecture course on Udemy is one of the best resources to consult.
+By the way, the Open-Closed principle is “O” from the SOLID acronym. If you want to learn more about this principle, the __<ins>SOLID Principles of Object-Oriented Design and Architecture</ins>__ course on Udemy is one of the best resources to consult.
 
 ## 4. Single Responsibility Principle (SRP)
 Single Responsibility Principle is another SOLID design principle, and represent “S” on the SOLID acronym. As per SRP, there should not be more than one reason for a class to change, or a class should always handle single functionality.
