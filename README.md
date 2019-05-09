@@ -161,3 +161,5 @@ The theory is the first step, but what is most important is to develop the abili
  
 Once you get hold of that, the next step is to learn Design patterns in Java, which uses these design patterns to solve common problems of application development and software engineering.
 
+:alien: :cyclone:
+
