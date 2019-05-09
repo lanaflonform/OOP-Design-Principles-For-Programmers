@@ -99,6 +99,7 @@ And, if you keep forgetting this rule, here is a nice cartoon to put in your des
 <p align="center"> 
 <img src="6.png">
 </p>
+
 ## 7. Liskov Substitution Principle (LSP)
 According to the Liskov Substitution Principle, Subtypes must be substitutable for supertype I mean methods or functions which uses superclass type must be able to work with the <ins>object</ins> of subclass without any issue”.
  
@@ -127,6 +128,7 @@ Another benefit of this design principle in Java is, the interface has the disad
 <p align="center"> 
 <img src="8.jpg">
 </p>
+
 ## 9. Programming for Interface not implementation
 A programmer should _always program for the interface and not for implementation_ this will lead to flexible code which can work with any new implementation of the interface.
  
@@ -155,6 +157,7 @@ The key benefit of this design principle is __no duplication of code__ and prett
 <p align="center"> 
 <img src="10.jpg">
 </p>
+
 ## Summary
 All these __object-oriented design principles__ help you write flexible and better code by striving high cohesion and low coupling.
 
