@@ -1,8 +1,8 @@
 # OOP-Design-Principles-For-Programmers
-The _Object-Oriented Design Principles_ are the core of OOP programming, but I have seen most of the Java programmers chasing design patterns like Singleton pattern, Decorator pattern, or Observer pattern, and not putting enough attention on learning Object-oriented analysis and design.  It’s important to learn the basics of Object-oriented programming like Abstraction, Encapsulation, Polymorphism, and Inheritance. But, at the same time, it’s equally important to know object-oriented design principles.
+The __Object-Oriented Design Principles__ are the core of OOP programming, but I have seen most of the Java programmers chasing design patterns like <ins>Singleton pattern</ins>, <ins>Decorator pattern</ins>, or <ins>Observer pattern</ins>, and not putting enough attention on learning Object-oriented analysis and design.  It’s important to learn the basics of Object-oriented programming like Abstraction, Encapsulation, Polymorphism, and Inheritance. But, at the same time, it’s equally important to know object-oriented design principles.
 
 ## 1. DRY (Don’t repeat yourself)
-Our first object-oriented design principle is DRY, as the name suggests DRY (don’t repeat yourself) means don’t write duplicate code, instead use Abstraction to abstract common things in one place.
+Our first object-oriented design principle is DRY, as the name suggests __DRY (don’t repeat yourself)__ means don’t write duplicate code, instead use <ins>Abstraction</ins> to abstract common things in one place.
 
 If you have a block of code in more than two places consider making it a separate method, or if you use a hard-coded value more than one time make them public final constant. The benefit of this Object oriented design principle is in maintenance.
 
